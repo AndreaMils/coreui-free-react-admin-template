@@ -156,6 +156,11 @@ export default {
       icon: 'icon-pie-chart',
     },
     {
+      name: 'ReactPoc',
+      url: '/reactpoc',
+      icon: 'icon-pie-chart',
+    },
+    {
       name: 'Icons',
       url: '/icons',
       icon: 'icon-star',
