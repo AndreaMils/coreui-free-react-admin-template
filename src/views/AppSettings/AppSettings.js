@@ -109,16 +109,8 @@ export default class FormGeneratorCustom extends Component {
     }
   }
 
-
-  // onSubmit = event => {
-  //   event.preventDefault();
-  //   let appsettingsmodel = this.state;
-  //   console.log(appsettingsmodel);
-  //   this.service.exportToJson(JSON.stringify(appsettingsmodel));
-  // };
   log = (type) => console.log.bind(console, type);
   onSubmit = ({ formData, e }) => {
-
     this.service.exportToJson(JSON.stringify(formData))
   };
 

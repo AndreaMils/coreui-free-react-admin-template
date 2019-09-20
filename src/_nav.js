@@ -156,9 +156,9 @@ export default {
       icon: 'icon-pie-chart',
     },
     {
-      name: 'ReactPoc',
-      url: '/reactpoc',
-      icon: 'icon-pie-chart',
+      name: 'AppSettings',
+      url: '/appsettings',
+      icon: 'cui-align-center',
     },
     {
       name: 'Icons',
