@@ -1,0 +1,69 @@
+{
+    "configuration": {
+        "config": [
+            {
+                "sectionName": "Featured",
+                "section": {
+                    "strips": [
+                        {
+                            "stripName": "Evidence",
+                            "position": 0,
+                            "isEvidence": true,
+                            "stripQuery": "?subCategories=Crime,Drama,Action"
+                        },
+                        {
+                            "stripName": "Popular",
+                            "position": 1,
+                            "isEvidence": false,
+                            "stripQuery": "?subCategories=Thriller,Action,Adventure"
+                        },
+                        {
+                            "stripName": "Brand New",
+                            "position": 2,
+                            "isEvidence": false,
+                            "stripQuery": "?subCategories=Comedy,Drama,Crime"
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionName": "Movies",
+                "section": {
+                    "strips": [
+                        {
+                            "stripName": "Evidence",
+                            "position": 0,
+                            "isEvidence": true,
+                            "stripQuery": "?subCategories=Comedy",
+                        },
+                        {
+                            "stripName": "Popular",
+                            "position": 1,
+                            "isEvidence": false,
+                            "stripQuery": "?subCategories=Adventure"
+                        },
+                        {
+                            "stripName": "Brand New",
+                            "position": 2,
+                            "isEvidence": false,
+                            "stripQuery": "?subCategories=Action"
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionName": "Series",
+                "section": {
+                    "strips": [
+                        {
+                            "stripName": "Evidence",
+                            "position": 0,
+                            "isEvidence": true,
+                            "stripQuery": "?subCategories=Crime"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

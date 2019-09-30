@@ -36,6 +36,7 @@ const Widgets = React.lazy(() => import('./views/Widgets/Widgets'));
 const Users = React.lazy(() => import('./views/Users/Users'));
 const User = React.lazy(() => import('./views/Users/User'));
 const AppSettings = React.lazy(() => import('./views/AppSettings/AppSettings'));
+const VodConfiguration = React.lazy(() => import('./views/VodConfiguration/VodConfiguration'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
@@ -78,9 +79,10 @@ const routes = [
   { path: '/notifications/modals', name: 'Modals', component: Modals },
   { path: '/widgets', name: 'Widgets', component: Widgets },
   { path: '/charts', name: 'Charts', component: Charts },
-  { path: '/users', exact: true,  name: 'Users', component: Users },
+  { path: '/users', exact: true, name: 'Users', component: Users },
   { path: '/users/:id', exact: true, name: 'User Details', component: User },
   { path: '/appsettings', exact: true, name: 'App Settings', component: AppSettings },
+  { path: '/vodconfiguration', exact: true, name: 'Vod Configuration', component: VodConfiguration },
 ];
 
 export default routes;

@@ -5,6 +5,7 @@ import Form from "react-jsonschema-form";
 export default class FormGeneratorCustom extends Component {
   service = new Services();
 
+
   schemaBase = {
     title: "App Settings",
     type: "object",
@@ -119,7 +120,6 @@ export default class FormGeneratorCustom extends Component {
       <Form schema={this.schemaBase}
 
         onSubmit={this.onSubmit}
-      //onError={this.log("errors")} 
       />
     )
   }

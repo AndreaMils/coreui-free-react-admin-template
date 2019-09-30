@@ -161,6 +161,11 @@ export default {
       icon: 'cui-align-center',
     },
     {
+      name: 'VodConfiguration',
+      url: '/vodconfiguration',
+      icon: 'cui-align-center',
+    },
+    {
       name: 'Icons',
       url: '/icons',
       icon: 'icon-star',
