@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Services from "../../Services/Services";
 import Form from "react-jsonschema-form";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 export default class FormGeneratorCustom extends Component {
   service = new Services();
@@ -56,6 +59,7 @@ export default class FormGeneratorCustom extends Component {
   //   console.log(appsettingsmodel);
   //   this.service.exportToJson(JSON.stringify(appsettingsmodel));
   // };
+
   log = type => console.log.bind(console, type);
   onSubmit = ({ formData, e }) => {
     this.service.exportToJson(JSON.stringify(formData));
@@ -65,7 +69,7 @@ export default class FormGeneratorCustom extends Component {
       <Form
         schema={this.schemaBase}
         onSubmit={this.onSubmit}
-        //onError={this.log("errors")}
+      //onError={this.log("errors")}
       />
     );
   }
