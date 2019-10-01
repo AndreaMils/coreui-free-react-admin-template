@@ -1,0 +1,64 @@
+.array-item-list{
+    //border: 1px solid grey;
+    height: 50%;
+    width: 100%;
+}
+
+.array-item {
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 5px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.array-item-toolbox{
+    //border: 1px solid black;
+    padding: 1%;
+    padding-top: 0%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+
+.btn-group{
+    padding: 10% 0%;
+    margin: 30% 0%;
+    border: 30% 0%;
+}
+
+.btn-info{
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    
+}
+
+.btn-add {
+    background-color: green;
+    height: 30px;
+    width: 60px;
+}
+
+.btn-group{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    
+}
+
+.col-xs-3{
+    height: auto;
+    width: 8.33333333%;
+}
+
+.col-xs-9{
+    height:auto ;
+    width: 91.66%;
+}
+
+

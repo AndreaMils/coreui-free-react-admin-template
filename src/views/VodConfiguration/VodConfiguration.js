@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Services from "../../Services/Services";
 import Form from "react-jsonschema-form";
+import './VodConfiguration.scss'
 //import { Button } from 'reactstrap';
 
 export default class FormGeneratorCustom extends Component {
