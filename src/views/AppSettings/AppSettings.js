@@ -111,7 +111,7 @@ export default class FormGeneratorCustom extends Component {
 
   log = (type) => console.log.bind(console, type);
   onSubmit = ({ formData, e }) => {
-    this.service.exportToJson(JSON.stringify(formData))
+    this.service.exportToJson(JSON.stringify(formData), 'AppSettings.json')
   };
 
   render() {
